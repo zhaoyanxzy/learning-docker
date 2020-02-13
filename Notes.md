@@ -39,6 +39,13 @@ Create and run a container using `docker run [image] [override command]`:
 - grabs image from docker hub (if required) and saves images
 - `override command` depends on the functions provided for by the image
 
+## Executing Additional Commands in a Running Container
+- `docker exec -it [container id] [command]`:
+	`-it` allows us to provide input to the container
+	- `-it` comprises of the two commands `-i` and `-t`
+	- `-i`: allows for user input
+	- `-t`: autocomplete with formatting
+
 ## Restarting Stopped Containers
 - `docker ps --all` to find the id of the stopped container
 - `docker start [options] [container id]`:
