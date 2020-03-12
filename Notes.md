@@ -24,8 +24,6 @@ Executes the docker command from the user and sends requests to the `docker serv
 - An container is ultimately a writable image. While the container is edited, the underlying image remains unchanged.
 
 ### Docker Machine
-
-
 ### Docker Hub
 ### Docker Compose
 
