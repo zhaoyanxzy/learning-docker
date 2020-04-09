@@ -63,6 +63,10 @@ Create and run a container using `docker run [image] [override command]`:
 	- After 10 seconds upon receiving this command and the container can't be stopped gracefully, the container will be `killed`
 - Method 2: `docker kill [container id]` (force quit instantly)
 
+## Docker Compose
+- `docker run myimage` -> `docker-compose up`
+- `docker build . && docker run myimage` -> `docker-compose up --build`
+
 # Other Commands
 - `docker version`: prints out verson
 
